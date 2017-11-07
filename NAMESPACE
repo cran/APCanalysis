@@ -1,0 +1,12 @@
+S3method(summary, apc, summary.apc)
+S3method(plot, apc, plot.apc)
+export(EERpenalties)
+export(IERpenalties)
+export(FDRpenalties)
+export(apc)
+export(plot.apc)
+export(summary.apc)
+importFrom("graphics", "plot", "points", "text")
+importFrom("stats", "lm", "model.extract", "model.frame",
+             "model.matrix", "qf", "quantile", "rnorm")
+
